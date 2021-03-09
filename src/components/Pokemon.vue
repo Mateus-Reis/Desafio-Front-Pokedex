@@ -67,7 +67,7 @@ watch: {
     },
   },
 
-  created:() => {
+  created: function () {
     this.chamarPokemon();
   },
   data() {

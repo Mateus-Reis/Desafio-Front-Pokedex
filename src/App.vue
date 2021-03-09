@@ -15,7 +15,7 @@
           :url="poke.url"
           :num="poke.num"
           :type="poke.type"
-          
+          :abilities="poke.name"
         />
       </div>
       </div>
@@ -35,7 +35,7 @@ export default {
       busca: ''
     };
   },
-  created: () => {
+  created: function () {
     axios
       .get("https://pokeapi.co/api/v2/pokemon?limit=151&offset=0")
       .then((res) => {
@@ -60,7 +60,7 @@ export default {
       }
     },
 
-    resultadoBusca: () => {
+    resultadoBusca: function (){
       if(this.busca == '' || this.busca == ' '){
           return this.pokemons;
       }else{
