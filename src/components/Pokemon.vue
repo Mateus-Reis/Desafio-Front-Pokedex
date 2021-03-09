@@ -33,7 +33,6 @@
       <div class="card-content">
         <div class="media">
           <div class="media-content">
-            <p class="title is-8">{{ num }} - {{ name }}</p>
             <p class="subtitle is-5">{{ this.pokemon.type }}</p>
             <p class="subtitle is-5">{{ this.pokemon.ability }}</p>
             <p class="subtitle is-5">{{ this.pokemon.height }}</p>
@@ -61,7 +60,7 @@ import axios from "axios";
 export default {
 
 watch: {
-    textoBuscado: () =>  {
+    textoBuscado: function ()  {
       console.log(this.pokemon);
       this.chamarPokemon();
     },
@@ -118,10 +117,10 @@ watch: {
       mudarSprite () {
           if(this.isFront){
               this.isFront = false;
-              this.currentImg = this.pokemon.front;
+              this.currentImg = this.pokemon.back;
           }else {
               this.isFront = true;
-              this.currentImg = this.pokemon.back;
+              this.currentImg = this.pokemon.front;
           }
       }
   }
