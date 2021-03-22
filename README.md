@@ -1,5 +1,5 @@
 # **Desafio Front-End - Lista de Pokémons**
-A Before está organizando uma gincana de Caça-Pokémon entre suas equipes internas. A diretoria solicitou à equipe de RH para computar os dados dos pokémons colhidos pelas equipes e gerasse um placar de pontos. A equipe não conhece tão bem todos os pokémons e isso gerou uma demanda interna onde você irá ajudá-los!
+O RH está organizando uma gincana de Caça-Pokémon entre suas equipes internas. A diretoria solicitou à equipe de RH para computar os dados dos pokémons colhidos pelas equipes e gerasse um placar de pontos. A equipe não conhece tão bem todos os pokémons e isso gerou uma demanda interna onde você irá ajudá-los!
 
 O seu objetivo é construir uma interface simples para uma listagem de pokémons. A lista de pokémons pode ser obtida da API <https://pokeapi.co/>. Sua interface irá consumir os valores desta api e deverá realizar algumas funções:
 
