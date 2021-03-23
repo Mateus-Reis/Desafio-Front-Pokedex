@@ -1,4 +1,4 @@
-# *Desafio Front-End - Lista de Pokémons*
+# *Desafio Front-End - Lista de Pokémons* great_pokeball Discord & Slack Emoji
 
 O seu objetivo é construir uma interface simples para uma listagem de pokémons. A lista de pokémons pode ser obtida da API <https://pokeapi.co/>. Sua interface irá consumir os valores desta api e deverá realizar algumas funções:
 
